@@ -3,13 +3,12 @@
 > **Abstract** : Multiple Disease prediction is a model of machine learning. We will be deploying the system as a web app using streamlit in python. We will be able to choose the diseases from the navigation bar or a sidebar for which we want to make a prediction using various input values. These input values will be the symptoms, physical health data, or blood test results. We will first trained our model from historic data, so it can make accurate predictions.
 
 ### Project Members
-1. KHAN MOHAMMED DANISH NISAR AHMED  [ Team Leader ] 
-2. MANJREKAR SOHAM SHRIKANT 
-3. KHAN MUZAFFAR MOHAMMAD SOAIB 
-4. JAMADAR DANISH RASHID 
+1. AISHA NASEEM  [ Team Leader ] 
+2. AMNA ARMAN
+3. NAZISH QAYUUM
 
 ### Project Guides
-1. PROF. MOHAMMED JUNED   [ Primary Guide ] 
+1. SIR AWAIS AHMED  [ Primary Guide ] 
 
 ### Deployment Steps
 Please follow the below steps to run this project.
@@ -18,11 +17,6 @@ Please follow the below steps to run this project.
 2. cd frontend<br>
 3. streamlit run multiple_disease_prediction.py<br><br>
 
-
-### Subject Details
-- Class : TE (COMP) Div A - 2022-2023
-- Subject : Mini Project : 2A (MP2A(P)(2019))
-- Project Type : Mini Project
 
 ### Platform, Libraries and Frameworks used
 1. [Streamlit](https://docs.streamlit.io/library/get-started)
