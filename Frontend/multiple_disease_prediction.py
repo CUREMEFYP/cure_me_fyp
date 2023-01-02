@@ -320,24 +320,24 @@ if selected == 'Liver prediction':  # pagetitle
         elif value == "female":
             Sex = 1
     with col2:
-        age = st.number_input("Entre your age") # 2 
+        age = st.number_input("Enter your age") # 2 
     with col3:
-        Total_Bilirubin = st.number_input("Entre your Total_Bilirubin") # 3
+        Total_Bilirubin = st.number_input("Enter your Total_Bilirubin") # 3
     with col1:
-        Direct_Bilirubin = st.number_input("Entre your Direct_Bilirubin")# 4
+        Direct_Bilirubin = st.number_input("Enter your Direct_Bilirubin")# 4
 
     with col2:
-        Alkaline_Phosphotase = st.number_input("Entre your Alkaline_Phosphotase") # 5
+        Alkaline_Phosphotase = st.number_input("Enter your Alkaline_Phosphotase") # 5
     with col3:
-        Alamine_Aminotransferase = st.number_input("Entre your Alamine_Aminotransferase") # 6
+        Alamine_Aminotransferase = st.number_input("Enter your Alamine_Aminotransferase") # 6
     with col1:
-        Aspartate_Aminotransferase = st.number_input("Entre your Aspartate_Aminotransferase") # 7
+        Aspartate_Aminotransferase = st.number_input("Enter your Aspartate_Aminotransferase") # 7
     with col2:
-        Total_Protiens = st.number_input("Entre your Total_Protiens")# 8
+        Total_Protiens = st.number_input("Enter your Total_Proteins")# 8
     with col3:
-        Albumin = st.number_input("Entre your Albumin") # 9
+        Albumin = st.number_input("Enter your Albumin") # 9
     with col1:
-        Albumin_and_Globulin_Ratio = st.number_input("Entre your Albumin_and_Globulin_Ratio") # 10 
+        Albumin_and_Globulin_Ratio = st.number_input("Enter your Albumin_and_Globulin_Ratio") # 10 
     # code for prediction
     liver_dig = ''
 
@@ -350,7 +350,7 @@ if selected == 'Liver prediction':  # pagetitle
         if liver_prediction[0] == 1:
             image = Image.open('positive.jpg')
             st.image(image, caption='')
-            liver_dig = "we are really sorry to say but it seems like you have liver disease."
+            liver_dig = "We are sorry to inform that it seems like you have liver disease."
         else:
             image = Image.open('negative.jpg')
             st.image(image, caption='')
@@ -371,7 +371,7 @@ if selected == 'Hepatitis prediction':  # pagetitle
     name = st.text_input("Name:")
     col1, col2, col3 = st.columns(3)
     with col1:
-        age = st.number_input("Entre your age   ") # 2 
+        age = st.number_input("Enter your age   ") # 2 
     with col2:
         sex=0
         display = ("male", "female")
@@ -382,22 +382,22 @@ if selected == 'Hepatitis prediction':  # pagetitle
         elif value == "female":
             sex = 1
     with col3:
-        Total_Bilirubin = st.number_input("Entre your Total_Bilirubin") # 3
+        Total_Bilirubin = st.number_input("Enter your Total_Bilirubin") # 3
     with col1:
-        Direct_Bilirubin = st.number_input("Entre your Direct_Bilirubin")# 4
+        Direct_Bilirubin = st.number_input("Enter your Direct_Bilirubin")# 4
 
     with col2:
-        Alkaline_Phosphotase = st.number_input("Entre your Alkaline_Phosphotase") # 5
+        Alkaline_Phosphotase = st.number_input("Enter your Alkaline_Phosphotase") # 5
     with col3:
-        Alamine_Aminotransferase = st.number_input("Entre your Alamine_Aminotransferase") # 6
+        Alamine_Aminotransferase = st.number_input("Enter your Alamine_Aminotransferase") # 6
     with col1:
-        Aspartate_Aminotransferase = st.number_input("Entre your Aspartate_Aminotransferase") # 7
+        Aspartate_Aminotransferase = st.number_input("Enter your Aspartate_Aminotransferase") # 7
     with col2:
-        Total_Protiens = st.number_input("Entre your Total_Protiens")# 8
+        Total_Protiens = st.number_input("Enter your Total_Proteins")# 8
     with col3:
-        Albumin = st.number_input("Entre your Albumin") # 9
+        Albumin = st.number_input("Enter your Albumin") # 9
     with col1:
-        Albumin_and_Globulin_Ratio = st.number_input("Entre your Albumin_and_Globulin_Ratio") # 10 
+        Albumin_and_Globulin_Ratio = st.number_input("Enter your Albumin_and_Globulin_Ratio") # 10 
     # code for prediction
     hepatitis_dig = ''
 
@@ -408,7 +408,7 @@ if selected == 'Hepatitis prediction':  # pagetitle
 
         # after the prediction is done if the value in the list at index is 0 is 1 then the person is diabetic
         if hepatitis_prediction[0] == 1:
-            hepatitis_dig = "we are really sorry to say but it seems like you are Hepatitic."
+            hepatitis_dig = "We are sorry to inform but it seems like you are Hepatitic."
             image = Image.open('positive.jpg')
             st.image(image, caption='')
         else:
@@ -436,7 +436,7 @@ if selected == 'Jaundice prediction':  # pagetitle
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        age = st.number_input("Entre your age   ") # 2 
+        age = st.number_input("Enter your age   ") # 2 
     with col2:
         Sex=0
         display = ("male", "female")
@@ -447,18 +447,18 @@ if selected == 'Jaundice prediction':  # pagetitle
         elif value == "female":
             Sex = 1
     with col3:
-        Total_Bilirubin = st.number_input("Entre your Total_Bilirubin") # 3
+        Total_Bilirubin = st.number_input("Enter your Total_Bilirubin") # 3
     with col1:
-        Direct_Bilirubin = st.number_input("Entre your Direct_Bilirubin")# 4
+        Direct_Bilirubin = st.number_input("Enter your Direct_Bilirubin")# 4
 
     with col2:
-        Alkaline_Phosphotase = st.number_input("Entre your Alkaline_Phosphotase") # 5
+        Alkaline_Phosphotase = st.number_input("Enter your Alkaline_Phosphotase") # 5
     with col3:
-        Alamine_Aminotransferase = st.number_input("Entre your Alamine_Aminotransferase") # 6
+        Alamine_Aminotransferase = st.number_input("Enter your Alamine_Aminotransferase") # 6
     with col1:
-        Total_Protiens = st.number_input("Entre your Total_Protiens")# 8
+        Total_Protiens = st.number_input("Enter your Total_Proteins")# 8
     with col2:
-        Albumin = st.number_input("Entre your Albumin") # 9 
+        Albumin = st.number_input("Enter your Albumin") # 9 
     # code for prediction
     jaundice_dig = ''
 
@@ -471,7 +471,7 @@ if selected == 'Jaundice prediction':  # pagetitle
         if jaundice_prediction[0] == 1:
             image = Image.open('positive.jpg')
             st.image(image, caption='')
-            jaundice_dig = "we are really sorry to say but it seems like you have Jaundice."
+            jaundice_dig = "We are sorry to inform but it seems like you have Jaundice."
         else:
             image = Image.open('negative.jpg')
             st.image(image, caption='')
